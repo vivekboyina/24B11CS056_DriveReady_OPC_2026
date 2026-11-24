@@ -26,8 +26,8 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 
 | Day | Topics Covered | Status |
 |---|---|---|
-| [Day 1](./Day-1/) | LLM Integration, LangChain, Groq API, Building an AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
-| [Day 2](./Day-2/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
+| [Day 1](./Day%20-%201/) | LLM Integration, LangChain, Groq API, Building an AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
+| [Day 2](./Day%20-%202/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
 
 *More sessions and topics will be added as the workshop progresses.*
 
@@ -59,11 +59,11 @@ Agentic-AI-Workshop/
 │
 ├── README.md
 │
-├── Day-1/
+├── Day - 1/
 │   ├── README.md
 │   └── Day - 1.ipynb
 │
-└── Day-2/
+└── Day - 2/
     ├── README.md
     └── Day - 2.ipynb
 ```
