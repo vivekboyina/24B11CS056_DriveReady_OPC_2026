@@ -27,6 +27,7 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 | Day | Topics Covered | Status |
 |---|---|---|
 | [Day 1](./Day-1/) | LLM Integration, LangChain, Groq API, Building an AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
+| [Day 2](./Day-2/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
 
 *More sessions and topics will be added as the workshop progresses.*
 
@@ -42,8 +43,10 @@ The following technologies and tools have been explored so far:
 | Google Colab | Notebook environment |
 | LangChain | LLM application integration |
 | Groq API | Accessing hosted language models |
-| GPT-OSS 120B | Language model used for the AI assistant |
+| GPT-OSS 120B | Language model used for AI applications |
 | Llama Prompt Guard 2 | Prompt injection detection |
+| Python Decorators | Function execution logging and customization |
+| Conversation Memory | Maintaining contextual conversations |
 
 *This list will be updated as I explore additional technologies.*
 
@@ -59,7 +62,10 @@ Agentic-AI-Workshop/
 ├── Day-1/
 │   ├── README.md
 │   └── Day - 1.ipynb
-└──
+│
+└── Day-2/
+    ├── README.md
+    └── Day - 2.ipynb
 ```
 
 Each day's folder contains:
