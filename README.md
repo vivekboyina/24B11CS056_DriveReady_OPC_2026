@@ -26,8 +26,9 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 
 | Day | Topics Covered | Status |
 |---|---|---|
-| [Day 1](./Day%20-%201/) | LLM Integration, LangChain, Groq API, Building an AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
+| [Day 1](./Day%20-%201/) | LLM Integration, LangChain, Groq API, AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
 | [Day 2](./Day%20-%202/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
+| [Day 3](./Day%20-%203/) | Chatbot Development, Prompt Engineering, Conversation Memory, LangChain Chains, LCEL, Automated Testing, Error Handling & Introduction to Agents | ✅ Completed |
 
 *More sessions and topics will be added as the workshop progresses.*
 
@@ -37,16 +38,23 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 
 The following technologies and tools have been explored so far:
 
-| Technology | Purpose |
+| Technology / Tool | Purpose |
 |---|---|
 | Python | Programming language |
 | Google Colab | Notebook environment |
-| LangChain | LLM application integration |
+| LangChain | Building LLM-powered applications |
 | Groq API | Accessing hosted language models |
-| GPT-OSS 120B | Language model used for AI applications |
+| GPT-OSS 120B | Language model explored during the workshop |
+| GPT-OSS 20B | Language model used for chatbot implementation |
 | Llama Prompt Guard 2 | Prompt injection detection |
-| Python Decorators | Function execution logging and customization |
-| Conversation Memory | Maintaining contextual conversations |
+| ChatGroq | Connecting Groq models with LangChain |
+| ChatPromptTemplate | Creating structured prompts |
+| MessagesPlaceholder | Incorporating conversation history |
+| StrOutputParser | Parsing LLM outputs |
+| LCEL | Connecting prompts, models, and output parsers |
+| `create_agent` | Exploring LangChain agent creation |
+| Python Decorators | Logging function calls and results |
+| CSV | Storing and running chatbot test cases |
 
 *This list will be updated as I explore additional technologies.*
 
@@ -61,17 +69,21 @@ Agentic-AI-Workshop/
 │
 ├── Day - 1/
 │   ├── README.md
-│   └── Day - 1.ipynb
+│   └── task.ipynb
 │
-└── Day - 2/
+├── Day - 2/
+│   ├── README.md
+│   └── task.ipynb
+│
+└── Day - 3/
     ├── README.md
-    └── Day - 2.ipynb
+    └── task.py
 ```
 
 Each day's folder contains:
 
 - **README.md** – Concepts covered, key learnings, and implementation details.
-- **Jupyter Notebook** – Practical exercises and code implementations.
+- **Code / Notebook** – Practical exercises and code implementations.
 
 ---
 
