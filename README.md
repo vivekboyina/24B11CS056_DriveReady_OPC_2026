@@ -4,7 +4,7 @@ Welcome to my Agentic AI Workshop repository!
 
 This repository documents my day-by-day learning journey through the **Agentic AI Workshop**, organized by the **Department of Technical Training (DOTT), Aditya University**.
 
-Throughout this workshop, I will be exploring Generative AI, Large Language Models (LLMs), Agentic AI concepts, AI frameworks, APIs, and practical implementations.
+Throughout this workshop, I will be exploring Generative AI, Large Language Models (LLMs), Agentic AI concepts, AI frameworks, APIs, tools, vector databases, and practical implementations.
 
 My goal is to learn by doing, experiment with different AI technologies, and build a strong foundation in AI application development.
 
@@ -17,6 +17,7 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 - Learn how to integrate AI models into Python applications.
 - Work with AI frameworks, APIs, and tools.
 - Understand prompt engineering and AI safety.
+- Explore RAG and vector databases.
 - Build practical AI-powered applications through hands-on exercises.
 - Document daily learnings and implementations.
 
@@ -30,6 +31,7 @@ My goal is to learn by doing, experiment with different AI technologies, and bui
 | [Day 2](./Day%20-%202/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
 | [Day 3](./Day%20-%203/) | Chatbot Development, Prompt Engineering, Conversation Memory, LangChain Chains, LCEL, Automated Testing, Error Handling & Introduction to Agents | ✅ Completed |
 | [Day 4](./Day%20-%204/) | Tool Calling, AI Agents, Pydantic Validation, Google Sheets Integration, Order Management, Agent Workflows & Business Automation | ✅ Completed |
+| [Day 5](./Day%20-%205/) | RAG, ChromaDB, Vector Databases, Semantic Search, FAQ Retrieval, Session-Based Memory, Multi-User Context & Custom Business Agents | ✅ Completed |
 
 *More sessions and topics will be added as the workshop progresses.*
 
@@ -43,10 +45,10 @@ The following technologies and tools have been explored so far:
 |---|---|
 | Python | Programming language |
 | Google Colab | Notebook environment |
-| LangChain | Building LLM-powered applications |
+| LangChain | Building LLM-powered applications and agents |
 | Groq API | Accessing hosted language models |
 | GPT-OSS 120B | Language model explored during the workshop |
-| GPT-OSS 20B | Language model used for chatbot and agent implementation |
+| GPT-OSS 20B | Language model used for chatbot and agent implementations |
 | Llama Prompt Guard 2 | Prompt injection detection |
 | ChatGroq | Connecting Groq models with LangChain |
 | ChatPromptTemplate | Creating structured prompts |
@@ -57,10 +59,17 @@ The following technologies and tools have been explored so far:
 | Python Decorators | Logging function calls and results |
 | CSV | Storing and running chatbot test cases |
 | Pydantic | Validating structured order data |
-| Groq Tool Calling | Allowing AI agents to invoke external functions |
+| Groq Tool Calling | Allowing AI agents to invoke functions |
 | `gspread` | Integrating Python with Google Sheets |
 | Google Sheets API | Storing and managing customer orders |
 | Google Authentication | Authenticating access to Google services |
+| ChromaDB | Storing and retrieving business knowledge |
+| Vector Databases | Managing knowledge for retrieval-based applications |
+| RAG | Grounding LLM responses in retrieved information |
+| Semantic Search | Retrieving relevant documents based on query meaning |
+| Session-Based Memory | Maintaining conversation history per user/session |
+| LangChain Tools | Connecting agents with external functions and knowledge retrieval |
+| LangGraph | Agent workflow infrastructure explored through dependencies |
 
 *This list will be updated as I explore additional technologies.*
 
@@ -85,7 +94,11 @@ Agentic-AI-Workshop/
 │   ├── README.md
 │   └── task.py
 │
-└── Day - 4/
+├── Day - 4/
+│   ├── README.md
+│   └── task.py
+│
+└── Day - 5/
     ├── README.md
     └── task.py
 ```
@@ -105,7 +118,8 @@ My approach throughout this workshop is simple:
 2. Understand how the technology works.
 3. Implement the concepts through hands-on exercises.
 4. Experiment with different approaches.
-5. Document the learning process.
+5. Test the implementations.
+6. Document the learning process.
 
 ---
 
@@ -113,7 +127,7 @@ My approach throughout this workshop is simple:
 
 I believe that learning AI is not just about understanding theories but also about implementing ideas and solving real-world problems.
 
-Through this workshop, I aim to strengthen my understanding of AI technologies and gradually develop the skills required to build intelligent applications.
+Through this workshop, I aim to strengthen my understanding of AI technologies, explore agentic workflows, and gradually develop the skills required to build intelligent applications that interact with tools, external services, and knowledge bases.
 
 ---
 
