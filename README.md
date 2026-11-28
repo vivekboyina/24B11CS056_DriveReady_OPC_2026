@@ -1,77 +1,56 @@
 # 🚀 Agentic AI Workshop – My Learning Journey
 
-Welcome to my Agentic AI Workshop repository!
+## 📌 About
 
-This repository documents my day-by-day learning journey through the **Agentic AI Workshop**, organized by the **Department of Technical Training (DOTT), Aditya University**.
+This repository documents my day-by-day learning journey through the **Agentic AI Workshop** conducted by the **Department of Technical Training (DOTT), Aditya University**.
 
-Throughout this workshop, I will be exploring Generative AI, Large Language Models (LLMs), Agentic AI concepts, AI frameworks, APIs, tools, vector databases, and practical implementations.
+Throughout this workshop, I explore Large Language Models (LLMs), prompt engineering, LangChain, AI agents, tool calling, Retrieval-Augmented Generation (RAG), vector databases, memory, and workflow orchestration through hands-on tasks, experiments, and practical implementations.
 
-My goal is to learn by doing, experiment with different AI technologies, and build a strong foundation in AI application development.
+The goal is to understand how AI-powered applications evolve from simple chatbots into intelligent agents capable of using tools, retrieving information, maintaining context, and executing structured workflows.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Learning Objectives
 
-- Understand the fundamentals of Generative AI and Agentic AI.
-- Explore and interact with Large Language Models (LLMs).
-- Learn how to integrate AI models into Python applications.
-- Work with AI frameworks, APIs, and tools.
-- Understand prompt engineering and AI safety.
+- Understand Large Language Models and their capabilities.
+- Learn prompt engineering and AI safety.
+- Build conversational AI applications using LangChain.
+- Implement tool calling and function calling.
+- Develop AI agents for real-world use cases.
+- Integrate APIs and external services.
 - Explore RAG and vector databases.
-- Build practical AI-powered applications through hands-on exercises.
-- Document daily learnings and implementations.
+- Implement conversation memory and session management.
+- Build agent workflows using LangGraph.
+- Test, evaluate, and improve AI-powered applications.
 
 ---
 
 ## 📅 Daily Learning Progress
 
-| Day | Topics Covered | Status |
+| Day | Topics & Activities | Status |
 |---|---|---|
-| [Day 1](./Day%20-%201/) | LLM Integration, LangChain, Groq API, AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
-| [Day 2](./Day%20-%202/) | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
-| [Day 3](./Day%20-%203/) | Chatbot Development, Prompt Engineering, Conversation Memory, LangChain Chains, LCEL, Automated Testing, Error Handling & Introduction to Agents | ✅ Completed |
-| [Day 4](./Day%20-%204/) | Tool Calling, AI Agents, Pydantic Validation, Google Sheets Integration, Order Management, Agent Workflows & Business Automation | ✅ Completed |
-| [Day 5](./Day%20-%205/) | RAG, ChromaDB, Vector Databases, Semantic Search, FAQ Retrieval, Session-Based Memory, Multi-User Context & Custom Business Agents | ✅ Completed |
-
-*More sessions and topics will be added as the workshop progresses.*
+| Day 1 | LLM Integration, LangChain, Groq API, AI Bakery Assistant, Prompt Injection & AI Safety | ✅ Completed |
+| Day 2 | Groq API Integration, Prompt Engineering, Prompt Guard, Conversation Memory, Function Decorators, Function Calling & Error Handling | ✅ Completed |
+| Day 3 | Chatbot Development, Prompt Engineering, Conversation Memory, LangChain Chains, LCEL, Automated Testing, Error Handling & Introduction to Agents | ✅ Completed |
+| Day 4 | Tool Calling, AI Agents, Pydantic Validation, Google Sheets Integration, Order Management, Agent Workflows & Business Automation | ✅ Completed |
+| Day 5 | RAG, ChromaDB, Vector Databases, Semantic Search, FAQ Retrieval, Session-Based Memory, Multi-User Context & Custom Business Agents | ✅ Completed |
+| Day 6 | Intent Classification, LangGraph StateGraph, Nodes, Conditional Routing, Specialized Agents, RAG & Workflow Orchestration | ✅ Completed |
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-The following technologies and tools have been explored so far:
-
-| Technology / Tool | Purpose |
+| Technology | Usage |
 |---|---|
-| Python | Programming language |
-| Google Colab | Notebook environment |
-| LangChain | Building LLM-powered applications and agents |
-| Groq API | Accessing hosted language models |
-| GPT-OSS 120B | Language model explored during the workshop |
-| GPT-OSS 20B | Language model used for chatbot and agent implementations |
-| Llama Prompt Guard 2 | Prompt injection detection |
-| ChatGroq | Connecting Groq models with LangChain |
-| ChatPromptTemplate | Creating structured prompts |
-| MessagesPlaceholder | Incorporating conversation history |
-| StrOutputParser | Parsing LLM outputs |
-| LCEL | Connecting prompts, models, and output parsers |
-| `create_agent` | Creating LangChain agents |
-| Python Decorators | Logging function calls and results |
-| CSV | Storing and running chatbot test cases |
-| Pydantic | Validating structured order data |
-| Groq Tool Calling | Allowing AI agents to invoke functions |
-| `gspread` | Integrating Python with Google Sheets |
-| Google Sheets API | Storing and managing customer orders |
-| Google Authentication | Authenticating access to Google services |
-| ChromaDB | Storing and retrieving business knowledge |
-| Vector Databases | Managing knowledge for retrieval-based applications |
-| RAG | Grounding LLM responses in retrieved information |
-| Semantic Search | Retrieving relevant documents based on query meaning |
-| Session-Based Memory | Maintaining conversation history per user/session |
-| LangChain Tools | Connecting agents with external functions and knowledge retrieval |
-| LangGraph | Agent workflow infrastructure explored through dependencies |
-
-*This list will be updated as I explore additional technologies.*
+| Python | Programming and implementation |
+| Groq API | LLM inference |
+| LangChain | LLM application development and tool integration |
+| LangGraph | Agent workflow orchestration and state management |
+| ChromaDB | Vector database and semantic retrieval |
+| Pydantic | Data validation and structured outputs |
+| Google Sheets API | Data storage and order logging |
+| Google Colab | Development and experimentation |
+| CSV | Test cases and evaluation |
 
 ---
 
@@ -98,36 +77,33 @@ Agentic-AI-Workshop/
 │   ├── README.md
 │   └── task.py
 │
-└── Day - 5/
+├── Day - 5/
+│   ├── README.md
+│   └── task.py
+│
+└── Day - 6/
     ├── README.md
     └── task.py
 ```
 
-Each day's folder contains:
+---
 
-- **README.md** – Concepts covered, key learnings, and implementation details.
-- **Code / Notebook** – Practical exercises and code implementations.
+## 📖 Learning Approach
+
+Each day focuses on practical implementation and experimentation:
+
+- Learning new AI and agentic concepts.
+- Implementing tasks using Python and relevant frameworks.
+- Experimenting with prompts, tools, and workflows.
+- Testing AI behavior with different inputs.
+- Documenting concepts, tasks, and learning outcomes.
+- Building upon previous days to develop increasingly capable AI applications.
 
 ---
 
-## 💡 Learning Approach
+## 🚀 Workshop Goal
 
-My approach throughout this workshop is simple:
-
-1. Learn the concepts.
-2. Understand how the technology works.
-3. Implement the concepts through hands-on exercises.
-4. Experiment with different approaches.
-5. Test the implementations.
-6. Document the learning process.
-
----
-
-## 🌱 My Goal
-
-I believe that learning AI is not just about understanding theories but also about implementing ideas and solving real-world problems.
-
-Through this workshop, I aim to strengthen my understanding of AI technologies, explore agentic workflows, and gradually develop the skills required to build intelligent applications that interact with tools, external services, and knowledge bases.
+To develop a strong foundation in Agentic AI by building hands-on applications and understanding how LLMs, tools, memory, knowledge retrieval, and workflow orchestration work together to create intelligent AI systems.
 
 ---
 
@@ -136,9 +112,8 @@ Through this workshop, I aim to strengthen my understanding of AI technologies, 
 - **Workshop:** Agentic AI Workshop
 - **Organized by:** Department of Technical Training (DOTT)
 - **Institution:** Aditya University
+- **Focus:** Hands-on learning, AI agents, LLM applications, and automation
 
 ---
 
-**Learning every day. Building consistently. Growing with AI. 🚀**
-
-⭐ Feel free to explore the daily folders and notebooks to follow my learning journey!
+⭐ This repository serves as a record of my continuous learning and hands-on exploration of Agentic AI.
